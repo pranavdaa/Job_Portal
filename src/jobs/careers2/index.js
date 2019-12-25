@@ -1,24 +1,24 @@
 import React, { Component } from "react";
-import Header from "./sections/header/";
+//import Header from "./sections/header/";
 import Hero from "./sections/hero/";
 import Openings from "./sections/openings/";
 import { Helmet } from "react-helmet";
-import Footer from "../../component/footer/";
+//import Footer from "../../component/footer/";
 class Index extends Component {
 	render() {
 		return (
 			<React.Fragment>
 				<Helmet
-					title="Find Latest Job Opportunities -Towards Blockchain "
+					title="Find a Research Internship Opportunity "
 					meta={[
 						{
 							name: "description",
 							content:
-								"Interested in Emerging Technology? You will fit right in. Come join us and let’s transform the world together. Send us your portfolio and we'll get back to you"
+								"Interested in Emerging Technology? You will fit right in.Apply Via TechBootCamps Internal Portal and have a higher chance of selecgtion in these Internships "
 						},
 						{
 							property: "og:url",
-							content: "https://towardsblockchain.com/careers"
+							content: "http://techbootcamps.co.in/"
 						}
 					]}
 				/>
