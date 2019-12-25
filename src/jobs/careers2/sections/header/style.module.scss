@@ -1,0 +1,11 @@
+.bg {
+  background: hsl(0, 0%, 9%);
+  color: white;
+  z-index: 2;
+  .navbar {
+    z-index: 2;
+  }
+}
+.grid_bg {
+  background: url("./assets/pattern.png") repeat;
+}
